@@ -1,0 +1,39 @@
+.category{
+    padding: 1%;
+    font-weight: 400;
+}
+.poster{
+    width: 300px;
+    border-radius: 5px;
+}
+.small{
+    width: 250px;
+    border-radius: 5px;
+}
+.item{
+    margin-top: 10px;
+    margin-left: 1%;
+    transition:250ms;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.item:hover{
+    transform: scale(1.1);
+    border-radius: 5ch;
+    border-color: aliceblue;
+}
+.poster:hover{
+    border-style: solid;
+}
+.small:hover{
+    border-style: solid;
+}
+.posterrow{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  
+}
+.posterrow::-webkit-scrollbar{
+    display: none;
+}
